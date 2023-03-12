@@ -1,0 +1,52 @@
+/// Main Styles File
+/// Here we import all the global Styles files we need for our project.
+
+@import "styles/normalize.scss";
+@import "styles/root.scss";
+@import "styles/fonts.scss";
+
+@import "../modules/HomeModule/pages/HomePage/HomePage.scss";
+@import "../modules/HomeModule/interfaces/LoginWithAccount.scss";
+@import "../modules/HomeModule/interfaces/LoginWithForm.scss";
+@import "../modules/HomeModule/interfaces/ShowLogedUser.scss";
+@import "../modules/HomeModule/components/Input.scss";
+@import "../modules/HomeModule/interfaces/CreateAccount.scss";
+@import "../modules/HomeModule/components/CheckboxInput.scss";
+@import "../modules/HomeModule/components/RadioInput.scss";
+@import "../modules/HomeModule/components/SelectDate.scss";
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+p {
+  color: var(--color-on-surface);
+}
+
+.stroke {
+  color: var(--color-on-surface);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+ 
+  .line{
+    border-top: 1px groove var(--color-stroke);
+    width: 45%;
+
+  }
+}
+

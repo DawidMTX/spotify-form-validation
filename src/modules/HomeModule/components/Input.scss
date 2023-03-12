@@ -1,0 +1,25 @@
+.registerForm__input {
+    display: flex;
+        flex-direction: column;
+    label {
+        font-size: 14px;
+        line-height: 16.8px;
+        color: black;
+        font-weight: 700;
+        font-style: normal;
+        margin: 10px 0;
+    }
+
+    .windowForm {
+        border-radius: 50px;
+        outline: none;
+        border: 1px solid black;
+        font-size: 14px;
+        height: 56px;
+        padding: 0 20px;
+    }
+   .extraText{
+    margin: 10px 0 0;
+    font-size: 14px;
+   }
+}

@@ -1,0 +1,21 @@
+.lookOfButton{
+   padding: 18px 60px;
+   background-color: var(--color-green);
+   gap:10px;
+   border: none;
+   border-radius: 50px;
+   
+}
+.lookOfButton > span{
+   font-size: 16px;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.lookOfButton:hover{
+   transform: scale(1.05);
+}
+
+.disabledStyle{
+   background-color: var(--color-light-gray);
+}

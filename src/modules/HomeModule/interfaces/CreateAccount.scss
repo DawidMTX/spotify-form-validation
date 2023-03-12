@@ -1,0 +1,51 @@
+.registerForm {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    &__gender{
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 25px;
+      gap: 15px;
+    }
+    &__selectDate {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  
+      &-title {
+        width: 100%;
+      }
+    }
+}
+
+.formContener {
+    width: 435px;
+    margin-top: 30px;
+    padding: 10px;
+    &__title {
+      font-size: 18px;
+      text-align: center;
+      color: var(--color-on-surface)
+    }
+    &__header{
+      font-size: 32px;
+      text-align: center;
+      color: var(--color-on-surface);
+      font-family: 'Lato', sans-serif
+    }
+    &__login{
+      font-size: 18px;
+      text-align: center;
+      color: var(--color-on-surface);
+      &-button{
+        color: var(--color-green);
+      }
+      &-button:hover{
+       filter: brightness(1.2);
+      }
+    }
+
+  }
+  
+

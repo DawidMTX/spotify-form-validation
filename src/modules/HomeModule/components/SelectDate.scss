@@ -1,0 +1,44 @@
+.registerForm__selectDate{
+    &-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+  
+  }
+  label {
+        font-size: 14px;
+        line-height: 16.8px;
+        color: black;
+        font-weight: 700;
+        font-style: normal;
+        margin: 20px 0;
+      }
+  .windowForm{
+        border-radius: 50px;
+        outline: none;
+        border: 1px solid black;
+        font-size: 14px;
+        height: 56px;
+        padding: 0 20px;
+      }
+
+  &-month {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  
+  }
+  &-year,
+  &-day{
+    display: flex;
+    flex-direction: column;
+  
+ & > input,
+& > input {
+    width: 60px;
+    flex-grow: 1;
+  }
+}
+}

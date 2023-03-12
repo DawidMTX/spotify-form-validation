@@ -1,0 +1,19 @@
+
+.loginPanel {
+margin-top: 20px;
+    &__contener {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+        margin-top: 20px;
+    }
+
+  }
+
+.DoNotRemeberPasswordLink{
+    color: var(--color-on-surface);
+}
+
+.DoNotRemeberPasswordLink:hover{
+    color: var(--color-green);
+}

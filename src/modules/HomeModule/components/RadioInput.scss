@@ -1,0 +1,15 @@
+.radioInput{
+    display: flex;
+    margin-right: 25px;
+
+    &-input{
+      width: 20px;
+      height: 20px;
+      align-self: center;
+      margin-right: 10px;
+      
+    }
+    &-label{
+        color: black;
+    }
+  }
