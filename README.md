@@ -1,4 +1,4 @@
-# Simply-to-do-app
+# Spotify Form Validation (React)
 
 This is copy register form from spotify. We can log in and register using an e-mail address.
 
