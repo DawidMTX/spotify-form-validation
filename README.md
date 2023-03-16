@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Simply-to-do-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is copy register form from spotify. We can log in and register using an e-mail address.
 
-## Available Scripts
+### Links
 
-In the project directory, you can run:
+- Live Site URL: [Add live site URL here](https://authentication-d16f5.web.app/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Techonogies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- HTML5
+- CSS3 / SCSS
+- JavaScript
+- React.js
 
-### `npm test`
+### Built with
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Semantic HTML5 markup
+- CSS custom properties
+- SCSS
+- Flexbox
+- Mobile-first workflow
+- FireBase Authentication
+- React Hook Form
+- React Router 
+- Styled-Components
+- Hooks:
+    * useState
+   
 
-### `npm run build`
+## Rules
+This is copy register form form Spotify with dynamic validation. Every time you change input form is validation, when data are incorrect border of form chcange color at red and show you error message.
+Login button is avilable only when every data are corerct.
+We can login and sign up only using email. 
+Buttons with login with google facebook and apple are clikable but nothing happpens.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Sources
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This is a solution to the [Spotify - rejestracja i logowanie (React) - INVO Academy](https://platform.invo.academy/challenges/UyVpVMizCGqXS5MvbIFu).
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+All HTML, CSS and JavaScript code is written by me.
