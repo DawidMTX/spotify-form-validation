@@ -17,7 +17,7 @@ import LoginWithAccount from '../interfaces/LoginWithAccount';
 
 const valid = yup.object({
     email: yup.string().required("Enter corrent email").email("email is not valid"),
-    confirmEmail: yup.string().oneOf([yup.ref("email")], "Email must byu maych!"),
+    confirmEmail: yup.string().oneOf([yup.ref("email")], "Email must by match!"),
     password: yup.string().min(6, "Password must by at least 6 characters"),
     username: yup.string().required("User name is required"),
     gender: yup.string().required("Gender is required"),
